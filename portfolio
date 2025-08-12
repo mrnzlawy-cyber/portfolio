@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>بورتفوليو عمر الجهني</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            margin: 0;
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #ff0057, #ff7b00);
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #333;
+            margin: 20px auto;
+            display: block;
+            object-fit: cover;
+        }
+        .skills span {
+            display: inline-block;
+            background: #ff0057;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+            cursor: default;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery div {
+            width: 150px;
+            height: 100px;
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #aaa;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .gallery div:hover {
+            transform: scale(1.1);
+            background-color: #ff0057;
+            color: #fff;
+        }
+        .contact a {
+            color: #ff7b00;
+            text-decoration: none;
+        }
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>عمر الجهني</h1>
+        <p>مونتير - صانع القصص البصرية</p>
+    </header>
+
+    <section>
+        <img src="" alt="الصورة الشخصية" class="profile-pic" />
+        <h2>نبذة عني</h2>
+        <p>أنا عمر الجهني، مونتير أحب أخلق حكاية من كل لقطة. أشتغل على تعديل الفيديوهات بطريقة تخليها توصل إحساسها وتشد المشاهد من أول ثانية. من الإعلانات للأفلام القصيرة، هدفي دايمًا يكون النتيجة تكون مبهرة وتترك أثر.</p>
+    </section>
+
+    <section>
+        <h2>المهارات</h2>
+        <div class="skills">
+            <span>Adobe Premiere Pro</span>
+            <span>After Effects</span>
+            <span>تصحيح الألوان</span>
+            <span>مونتاج إعلانات</span>
+            <span>مونتاج أفلام قصيرة</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>معرض أعمالي</h2>
+        <div class="gallery">
+            <div>أضف صورتك هنا</div>
+            <div>أضف صورتك هنا</div>
+            <div>أضف صورتك هنا</div>
+            <div>أضف صورتك هنا</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>التواصل</h2>
+        <div class="contact">
+            <p>📧 <a href="mailto:mrnzlawy@gmail.com">mrnzlawy@gmail.com</a></p>
+            <p>📱 <a href="tel:+966540401835">+966 54 040 1835</a></p>
+            <p>📷 <a href="#">Instagram</a> | 🎥 <a href="https://www.youtube.com/@MN_group20" target="_blank" rel="noopener">YouTube</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة لعمر الجهني</p>
+    </footer>
+</body>
+</html>
